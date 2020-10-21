@@ -84,7 +84,7 @@ def check_non_case_options(answer: str, options: list) -> None:
         upper_options.append(option.upper())
     if answer.upper() not in upper_options:
         print(f'Error: Input options are: {options} '
-                + '\n Options are not case-sensitive.')
+              + '\n Options are not case-sensitive.')
 
 
 if __name__ == "__main__":
